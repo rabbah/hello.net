@@ -9,7 +9,7 @@ namespace dotnethelloworld
         {
             JObject message = new JObject();
             message.Add("name", new JValue("visual studio"));
-            JObject result = new Hello.MainClass().Main(message);
+            JObject result = new Hello.MainClass().xMain(message);
             Console.WriteLine(result);
         }
     }

@@ -2,5 +2,5 @@ packages:
   - name: default
     actions:
       - name: hello
-        main: "hello::Hello.MainClass::Main"
+        main: "hello::Hello.MainClass::MainAsync"
         runtime: "dotnet:3.1"
